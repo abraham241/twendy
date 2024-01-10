@@ -119,7 +119,7 @@ export default function Landing() {
       {/* ==================== section nos services =========================== */}
 
       {/* ==================== section nous choisir =========================== */}
-      <section className="flex-col flex gap-10 md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
+      <section className="flex-col flex gap-10 md:flex-row lg:flex-row xl:flex-row 2xl:flex-row py-10 px-10">
         <div className=" md:flex justify-start items-center">
           <div className="hidden lg:block xl:block md:w-1/3 lg:w-1/3 xl:w-1/3  text-4xl font-bold">
             POURQUOI <br /> NOUS <br /> CHOISIR ?
@@ -129,10 +129,10 @@ export default function Landing() {
           </div>
         </div>
         <div>
-          <div className="flex-col flex md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
+          <div className="flex-col flex gap-5 justify-center items-center md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
             <div className="w-[380px]">
               <h1 className="text-9xl font-bold">01</h1>
-              <p className="text-xl font-bold"> budget transport</p>
+              <p className="text-xl text-red-600 font-bold pt-2">Petit budget de transport</p>
             </div>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -142,10 +142,10 @@ export default function Landing() {
               erat vel sem lobortis mollis. Suspendisse
             </div>
           </div>
-          <div className="flex-col flex md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
+          <div className="flex-col flex gap-5 justify-center items-center md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
             <div className="w-[380px]">
-              <h1 className="text-9xl font-bold">01</h1>
-              <p className="text-xl font-bold"> budget transport</p>
+              <h1 className="text-9xl font-bold">02</h1>
+              <p className="text-xl text-red-600 font-bold pt-2"> Pas de stress</p>
             </div>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -155,10 +155,10 @@ export default function Landing() {
               erat vel sem lobortis mollis. Suspendisse
             </div>
           </div>
-          <div className="flex-col flex md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
+          <div className="flex-col flex gap-5 justify-center items-center md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
             <div className="w-[380px]">
-              <h1 className="text-9xl font-bold">01</h1>
-              <p className="text-xl font-bold"> budget transport</p>
+              <h1 className="text-9xl font-bold">03</h1>
+              <p className="text-xl text-red-600 font-bold pt-2">Fiabilité & securité</p>
             </div>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
