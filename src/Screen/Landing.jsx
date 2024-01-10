@@ -5,6 +5,8 @@ import { mdiApple } from "@mdi/js";
 import { mdiGooglePlay } from "@mdi/js";
 import hiro1 from "../assets/images/hiro1.png";
 import nous from "../assets/images/nous.png";
+import taxi1 from "../assets/images/taxi1.png"
+import taxi2 from "../assets/images/taxi2.png"
 
 export default function Landing() {
   return (
@@ -74,6 +76,34 @@ export default function Landing() {
         </div>
       </div>
       {/* =================== Fin de la section qui sommes nous =============== */}
+
+      {/* ==================== section nos services =========================== */}
+      <div className="bg-red-600 py-10">
+        <div className="text-5xl font-bold text-white py-5 text-center">
+          Nos Services
+        </div>
+        <div className="flex flex-col justify-center items-center sm:flex-col md:flex-row lg:flex-row xl:flex-row  gap-20">
+          <div className="w-96 bg-black text-white p-10 rounded-xl">
+            <div>
+              <img src={taxi2} alt=""  />
+            </div>
+            <div className="text-red-600 font-bold text-2xl text-center pb-2">Ticket de bus</div>
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, porro? Sed vehicula vestibulum sapien, in commodo eros mattis ut. Ut maximus mollis tortor sed laoreet. Mauris ac convallis nunc, sit amet interdum turpis. Sed iaculis erat vel sem lobortis mollis. Suspendisse
+            </div>
+          </div>
+          <div className="w-96 bg-white text-red-600 p-10 rounded-xl">
+            <div>
+              <img src={taxi2} alt="" />
+            </div>
+            <div className="text-red-600 font-bold text-2xl text-center pb-2">Ticket de bus</div>
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices ullamcorper imperdiet. Sed vehicula vestibulum sapien, in commodo eros mattis ut. Ut maximus mollis tortor sed laoreet. Mauris ac convallis nunc, sit amet interdum turpis. Sed iaculis erat vel sem lobortis mollis. Suspendisse
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* ==================== section nos services =========================== */}
     </div>
   );
 }
