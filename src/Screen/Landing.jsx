@@ -6,7 +6,7 @@ import { mdiGooglePlay } from "@mdi/js";
 import hiro1 from "../assets/images/hiro1.png";
 import nous from "../assets/images/nous.png";
 import taxi1 from "../assets/images/taxi1.png";
-// import taxi2 from "../assets/images/taxi2.png";
+import partenaire from "../assets/images/partenaire.png";
 import airtel from "../assets/images/airtel.png";
 import mouve from "../assets/images/mouve.png";
 import master from "../assets/images/master.png";
@@ -153,7 +153,6 @@ export default function Landing() {
             <div className="w-[380px]">
               <h1 className="text-9xl font-bold">02</h1>
               <p className="text-xl text-red-600 font-bold pt-2">
-                {" "}
                 Pas de stress
               </p>
             </div>
@@ -190,7 +189,7 @@ export default function Landing() {
           <img src={paiement} alt="" />
         </div>
         <div className="  md:w-1/2 lg:w-1/2 xl:w-1/2">
-          <h1 className="md:text-8xl font-bold text-5xl ">
+          <h1 className="md:text-8xl lg:text-8xl xl:text-8xl font-bold text-5xl ">
             Facilitez vos <br /> paiements <br /> avec E-billing
           </h1>
           <div className="flex justify-start  gap-10 pt-4 w-full">
@@ -208,6 +207,20 @@ export default function Landing() {
         </div>
       </section>
       {/* ==================== section nous choisir =========================== */}
+
+      {/* ==================== section partenaire =========================== */}
+      <section className="flex-col flex justify-between px-10 py-10 ">
+        <div>
+          <h1 className="font-bold text-5xl">Devenez <br /> notre <br /> partenaire</h1>
+          <button className="bg-red-600 rounded-md text-white font-bold mt-10 h-16 w-36 ">
+            Postulez Ici
+          </button>
+        </div>
+        <div className=" md:w-1/2 pt-3">
+          <img src={partenaire} alt="" />
+        </div>
+      </section>
+      {/* ==================== section partenaire =========================== */}
     </div>
   );
 }
