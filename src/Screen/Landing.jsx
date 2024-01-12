@@ -6,7 +6,12 @@ import { mdiGooglePlay } from "@mdi/js";
 import hiro1 from "../assets/images/hiro1.png";
 import nous from "../assets/images/nous.png";
 import taxi1 from "../assets/images/taxi1.png";
-import taxi2 from "../assets/images/taxi2.png";
+// import taxi2 from "../assets/images/taxi2.png";
+import airtel from "../assets/images/airtel.png";
+import mouve from "../assets/images/mouve.png";
+import master from "../assets/images/master.png";
+import visa from "../assets/images/visa.png";
+import paiement from "../assets/images/paiement.png";
 
 export default function Landing() {
   return (
@@ -132,7 +137,9 @@ export default function Landing() {
           <div className="flex-col flex gap-5 justify-center items-center md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
             <div className="w-[380px]">
               <h1 className="text-9xl font-bold">01</h1>
-              <p className="text-xl text-red-600 font-bold pt-2">Petit budget de transport</p>
+              <p className="text-xl text-red-600 font-bold pt-2">
+                Petit budget de transport
+              </p>
             </div>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -145,7 +152,10 @@ export default function Landing() {
           <div className="flex-col flex gap-5 justify-center items-center md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
             <div className="w-[380px]">
               <h1 className="text-9xl font-bold">02</h1>
-              <p className="text-xl text-red-600 font-bold pt-2"> Pas de stress</p>
+              <p className="text-xl text-red-600 font-bold pt-2">
+                {" "}
+                Pas de stress
+              </p>
             </div>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -158,7 +168,9 @@ export default function Landing() {
           <div className="flex-col flex gap-5 justify-center items-center md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
             <div className="w-[380px]">
               <h1 className="text-9xl font-bold">03</h1>
-              <p className="text-xl text-red-600 font-bold pt-2">Fiabilité & securité</p>
+              <p className="text-xl text-red-600 font-bold pt-2">
+                Fiabilité & securité
+              </p>
             </div>
             <div>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -170,7 +182,32 @@ export default function Landing() {
           </div>
         </div>
       </section>
-      {/* ==================== section nos choisir =========================== */}
+      {/* ==================== section nous choisir =========================== */}
+
+      {/* ==================== section nous choisir =========================== */}
+      <section className="flex flex-col justify-center items-center gap-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row py-5 px-10">
+        <div className=" md:w-1/2 lg:w-1/2 xl:w-1/3">
+          <img src={paiement} alt="" />
+        </div>
+        <div className="  md:w-1/2 lg:w-1/2 xl:w-1/2">
+          <h1 className="md:text-8xl font-bold text-5xl ">
+            Facilitez vos <br /> paiements <br /> avec E-billing
+          </h1>
+          <div className="flex justify-start  gap-10 pt-4 w-full">
+            <div className=" flex justify-center items-center gap-5">
+              <div className="flex gap-5">
+                <img src={airtel} alt="" className="bg-red-600 w-16 p-1" />
+                <img src={mouve} alt="" className="bg-blue-600 w-16 p-1" />
+              </div>
+              <div className="flex gap-5">
+                <img src={visa} alt="" className="bg-black w-16 p-1" />
+                <img src={master} alt="" className="bg-black w-16 p-1" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ==================== section nous choisir =========================== */}
     </div>
   );
 }
