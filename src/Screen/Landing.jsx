@@ -185,7 +185,7 @@ export default function Landing() {
 
       {/* ==================== section nous choisir =========================== */}
       <section className="flex flex-col justify-center items-center gap-10 sm:flex-col md:flex-row lg:flex-row xl:flex-row py-5 px-10">
-        <div className=" md:w-1/2 lg:w-1/2 xl:w-1/3">
+        <div className=" ">
           <img src={paiement} alt="" />
         </div>
         <div className="  md:w-1/2 lg:w-1/2 xl:w-1/2">
@@ -209,9 +209,10 @@ export default function Landing() {
       {/* ==================== section nous choisir =========================== */}
 
       {/* ==================== section partenaire =========================== */}
-      <section className="flex-col flex justify-between px-10 py-10 ">
-        <div>
-          <h1 className="font-bold text-5xl">Devenez <br /> notre <br /> partenaire</h1>
+      <section className="flex-col flex justify-between gap-5 md:flex-row  px-10 py-10 ">
+        <div className=" flex  flex-col md:w-1/2">
+          <h1 className="font-bold text-5xl md:text-8xl">Devenez  notre <br /> partenaire</h1>
+          <p className="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere hic commodi quisquam. Rem natus voluptatem exercitationem fuga, perspiciatis nemo. Architecto fugiat quas fuga voluptates doloribus consequatur quasi ratione vero excepturi.</p>
           <button className="bg-red-600 rounded-md text-white font-bold mt-10 h-16 w-36 ">
             Postulez Ici
           </button>
