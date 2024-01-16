@@ -125,59 +125,83 @@ export default function Landing() {
       {/* ==================== section nos services =========================== */}
 
       {/* ==================== section nous choisir =========================== */}
-      <section className="flex-col flex gap-10 md:flex-row lg:flex-row xl:flex-row 2xl:flex-row py-10 px-10">
-        <div className=" md:flex justify-start items-center">
-          <div className="hidden lg:block xl:block md:w-1/3 lg:w-1/3 xl:w-1/3 text-4xl font-bold">
-            POURQUOI <br /> NOUS <br /> CHOISIR ?
-          </div>
-          <div className=" md:block lg:hidden xl:hidden text-5xl font-bold">
-            POURQUOI NOUS <br /> CHOISIR ?
-          </div>
-        </div>
+      <section className="flex-col gap-10 md:flex-row lg:flex-row xl:flex-row 2xl:flex-row py-10 px-10">
+        <h1 className="text-5xl font-bold py-5 text-center">
+          Pourquoi nous choisir
+        </h1>
         <div>
-          <div className="flex-col flex gap-5 justify-center items-center md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
-            <div className="w-[380px] flex flex-col justify-center items-center">
-              <h1 className="text-9xl font-bold">01</h1>
-              <p className="text-xl text-red-600 font-bold pt-2">
-                Petit budget de transport
-              </p>
+          <div className="flex-col flex justify-between gap-5 md:flex-row lg:flex-row xl:flex-row">
+            <div className="bg-black w-96 p-5 rounded-xl">
+              <div className="text-center py-2">
+                <h6 className="text-5xl font-bold text-white">01</h6>
+                <p className="text-red-600 font-bold"> budget transport</p>
+              </div>
+              <div>
+                <p className="text-white">
+                  vestibulum sapien, in commodo eros mattis ut. Ut maximus
+                  mollis tortor sed laoreet. Mauris ac convallis nunc, sit amet
+                  interdum turpis. Sed iaculis erat vel sem lobortis mollis.
+                  Suspendisse
+                </p>
+              </div>
             </div>
-            <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ultrices ullamcorper imperdiet. Sed vehicula vestibulum sapien, in
-              commodo eros mattis ut. Ut maximus mollis tortor sed laoreet.
-              Mauris ac convallis nunc, sit amet interdum turpis. Sed iaculis
-              erat vel sem lobortis mollis. Suspendisse
+            <div className="bg-black w-96 p-5 rounded-xl">
+              <div className="text-center py-2">
+                <h6 className="text-5xl font-bold text-white">02</h6>
+                <p className="text-red-600 font-bold"> Pas de stress</p>
+              </div>
+              <div>
+                <p className="text-white">
+                  vestibulum sapien, in commodo eros mattis ut. Ut maximus
+                  mollis tortor sed laoreet. Mauris ac convallis nunc, sit amet
+                  interdum turpis. Sed iaculis erat vel sem lobortis mollis.
+                  Suspendisse
+                </p>
+              </div>
+            </div>
+            <div className="bg-black w-96 p-5 rounded-xl">
+              <div className="text-center py-2">
+                <h6 className="text-5xl font-bold text-white">03</h6>
+                <p className="text-red-600 font-bold"> Fiabilité</p>
+              </div>
+              <div>
+                <p className="text-white">
+                  vestibulum sapien, in commodo eros mattis ut. Ut maximus
+                  mollis tortor sed laoreet. Mauris ac convallis nunc, sit amet
+                  interdum turpis. Sed iaculis erat vel sem lobortis mollis.
+                  Suspendisse
+                </p>
+              </div>
             </div>
           </div>
-          <div className="flex-col flex gap-5 justify-center items-center md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
-            <div className="w-[380px] flex flex-col justify-center items-center">
-              <h1 className="text-9xl font-bold">02</h1>
-              <p className="text-xl text-red-600 font-bold pt-2">
-                Pas de stress
-              </p>
+          <div className="flex-col py-10 flex justify-center md:flex-row lg:flex-row xl:flex-row gap-5">
+            <div className="bg-black w-96 p-5 rounded-xl">
+              <div className="text-center py-2">
+                <h6 className="text-5xl font-bold text-white">04</h6>
+                <p className="text-red-600 font-bold"> budget transport</p>
+              </div>
+              <div>
+                <p className="text-white">
+                  vestibulum sapien, in commodo eros mattis ut. Ut maximus
+                  mollis tortor sed laoreet. Mauris ac convallis nunc, sit amet
+                  interdum turpis. Sed iaculis erat vel sem lobortis mollis.
+                  Suspendisse
+                </p>
+              </div>
             </div>
-            <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ultrices ullamcorper imperdiet. Sed vehicula vestibulum sapien, in
-              commodo eros mattis ut. Ut maximus mollis tortor sed laoreet.
-              Mauris ac convallis nunc, sit amet interdum turpis. Sed iaculis
-              erat vel sem lobortis mollis. Suspendisse
-            </div>
-          </div>
-          <div className="flex-col flex gap-5 justify-center items-center md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
-            <div className="w-[380px] flex flex-col justify-center items-center">
-              <h1 className="text-9xl font-bold">03</h1>
-              <p className="text-xl text-red-600 font-bold pt-2">
-                Fiabilité & securité
-              </p>
-            </div>
-            <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ultrices ullamcorper imperdiet. Sed vehicula vestibulum sapien, in
-              commodo eros mattis ut. Ut maximus mollis tortor sed laoreet.
-              Mauris ac convallis nunc, sit amet interdum turpis. Sed iaculis
-              erat vel sem lobortis mollis. Suspendisse
+            <div className="bg-black w-96 p-5 rounded-xl">
+              <div className="text-center py-2">
+                <h6 className="text-5xl font-bold text-white">05</h6>
+                <p className="text-red-600 font-bold"> budget transport</p>
+              </div>
+              <div>
+                <p className="text-white">
+                  vestibulum sapien, in commodo eros mattis ut. Ut maximus
+                  mollis tortor sed laoreet. Mauris ac convallis nunc, sit amet
+                  interdum turpis. Sed iaculis erat vel sem lobortis mollis.
+                  Suspendisse
+                </p>
+              </div>
             </div>
           </div>
         </div>
