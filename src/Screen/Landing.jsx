@@ -125,11 +125,11 @@ export default function Landing() {
       {/* ==================== section nos services =========================== */}
 
       {/* ==================== section nous choisir =========================== */}
-      <section className=" py-10 px-10">
-        <h1 className="text-5xl font-bold py-5 text-center">
+      <section className="">
+        <h1 className="text-5xl font-bold py-5 text-center px-10">
           Pourquoi nous choisir
         </h1>
-        <div>
+        <div className="py-10 px-10">
           <div className="flex-col flex justify-between gap-5 md:flex-row lg:flex-row xl:flex-row">
             <div className="bg-black w-96 p-5 rounded-xl">
               <div className="text-center py-2">
