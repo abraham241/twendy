@@ -12,6 +12,7 @@ import mouve from "../assets/images/mouve.png";
 import master from "../assets/images/master.png";
 import visa from "../assets/images/visa.png";
 import paiement from "../assets/images/paiement.png";
+import Footer from "../Components/Footer";
 
 export default function Landing() {
   return (
@@ -211,8 +212,15 @@ export default function Landing() {
       {/* ==================== section partenaire =========================== */}
       <section className="flex-col flex justify-between gap-5 md:flex-row  px-10 py-10 ">
         <div className=" flex  flex-col md:w-1/2">
-          <h1 className="font-bold text-5xl md:text-5xl lg:text-8xl xl:text-8xl">Devenez  notre <br /> partenaire</h1>
-          <p className="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere hic commodi quisquam. Rem natus voluptatem exercitationem fuga, perspiciatis nemo. Architecto fugiat quas fuga voluptates doloribus consequatur quasi ratione vero excepturi.</p>
+          <h1 className="font-bold text-5xl md:text-5xl lg:text-8xl xl:text-8xl">
+            Devenez notre <br /> partenaire
+          </h1>
+          <p className="py-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere hic
+            commodi quisquam. Rem natus voluptatem exercitationem fuga,
+            perspiciatis nemo. Architecto fugiat quas fuga voluptates doloribus
+            consequatur quasi ratione vero excepturi.
+          </p>
           <button className="bg-red-600 rounded-md text-white font-bold mt-10 h-16 w-36 ">
             Postulez Ici
           </button>
@@ -222,6 +230,10 @@ export default function Landing() {
         </div>
       </section>
       {/* ==================== section partenaire =========================== */}
+
+      {/* ==================== footer =========================== */}
+      <Footer />
+      {/* ==================== footer =========================== */}
     </div>
   );
 }

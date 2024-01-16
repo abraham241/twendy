@@ -3,15 +3,17 @@ import { Link } from "react-router-dom";
 import Icon from "@mdi/react";
 import { mdiApple } from "@mdi/js";
 import { mdiGooglePlay } from "@mdi/js";
-import { mdiCar3Plus } from "@mdi/js";
+import tw1 from "../assets/images/tw1.png";
+
 
 export default function NavBar() {
   return (
     <>
       <nav className="flex justify-between bg-black py-4 px-10 text-white">
         <div>
-          {/* <img src="" alt="" /> */}
-          <Icon path={mdiCar3Plus} size={3} className="" />
+          <img src={tw1} alt="" className="h-16" />
+          
+          {/* <Icon path={mdiCar3Plus} size={3} className="" /> */}
         </div>
 
         <div className="hidden  md:flex justify-between lg:flex-justify-between gap-5 pt-2">
