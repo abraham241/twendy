@@ -125,7 +125,7 @@ export default function Landing() {
       {/* ==================== section nos services =========================== */}
 
       {/* ==================== section nous choisir =========================== */}
-      <section className="flex-col gap-10 md:flex-row lg:flex-row xl:flex-row 2xl:flex-row py-10 px-10">
+      <section className=" py-10 px-10">
         <h1 className="text-5xl font-bold py-5 text-center">
           Pourquoi nous choisir
         </h1>
