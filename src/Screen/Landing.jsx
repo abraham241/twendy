@@ -20,10 +20,12 @@ export default function Landing() {
       <NavBar />
       {/* ======================= 1er section ============================ */}
       <div className="flex flex-col-reverse sm:flex-col-reverse md:flex-row lg:flex-row xl:flex-row ">
-        <div className="w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-1/2 bg-red-500 px-10 py-5  ">
-          <h1 className="text-5xl font-bold text-white">
-            Donner aux communautés les moyens de leur autonomisation grâce aux
-            innovations
+        <div className="w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-1/2 bg-red-600 px-10 py-5  ">
+          <h1 className="text-6xl font-bold text-white">
+            Simplifiez vos trajets, <br /> Évitez les tracas! <br />{" "}
+            <span className="text-4xl text-white">
+              carte de voyage, QR code & bus
+            </span>
           </h1>
           <div className="pt-16">
             <h6 className="font-bold text-white py-2">

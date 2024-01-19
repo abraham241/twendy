@@ -6,6 +6,7 @@ import { mdiGooglePlay } from "@mdi/js";
 import tw1 from "../assets/images/tw1.png";
 
 
+
 export default function NavBar() {
   return (
     <>
@@ -19,7 +20,7 @@ export default function NavBar() {
         <div className="hidden  md:flex justify-between lg:flex-justify-between gap-5 pt-2">
           <ul className="hidden md:flex lg:flex xl:flex gap-5 font-bold pt-4 ">
             <li className="list-none hover:text-red-600 hover:text-2xl">
-              <Link to="/">A propos</Link>
+              <Link to="/Apropos">A propos</Link>
             </li>
             <li className="list-none hover:text-red-600 hover:text-2xl">
               <Link to="/">Service</Link>
