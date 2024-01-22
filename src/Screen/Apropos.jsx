@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../Components/NavBar";
 import Hirosection from "../Components/hirosection";
 import Footer from "../Components/Footer";
-import nous from "../assets/images/nous.png";
+// import nous from "../assets/images/nous.png";
 import chefesse from "../assets/images/chefesse.jpg";
 import team2 from "../assets/images/team2.jpg"
 import ecoleB2 from "../assets/images/ecoleB2.png";
