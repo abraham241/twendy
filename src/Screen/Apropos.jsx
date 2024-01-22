@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../Components/NavBar";
-import Hirosection from "../Components/hirosection";
+import Hirosection from "../Components/Hirosection";
 import Footer from "../Components/Footer";
 // import nous from "../assets/images/nous.png";
 import chefesse from "../assets/images/chefesse.jpg";
