@@ -26,13 +26,13 @@ export default function NavBar() {
               <Link to="/Apropos">A propos</Link>
             </li>
             <li className="list-none hover:text-red-600 hover:text-2xl">
-              <Link to="/">Service</Link>
+              <Link to="">Service</Link>
             </li>
             <li className="list-none hover:text-red-600 hover:text-2xl">
-              <Link to="/">Paiement</Link>
+              <Link to="">Paiement</Link>
             </li>
             <li className="list-none hover:text-red-600 hover:text-2xl">
-              <Link to="/">Partenaire</Link>
+              <Link to="">Partenaire</Link>
             </li>
           </ul>
           <div className="flex gap-3">

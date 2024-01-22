@@ -31,10 +31,10 @@ function Footer() {
         <div>
           <ul className="text-white">
             <li>
-              <p className="font-bold">Liens utils</p>
+              <p className="font-bold">Liens utiles</p>
             </li>
             <li>
-              <Link to="/#">partanaria</Link>
+              <Link to="/#">partanariat</Link>
             </li>
             <li className="py-2">
               <Link to="/#">FAQ</Link>
