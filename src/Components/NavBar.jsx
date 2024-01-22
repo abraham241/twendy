@@ -10,7 +10,7 @@ import tw1 from "../assets/images/tw1.png";
 export default function NavBar() {
   return (
     <>
-      <nav className="flex justify-between bg-black py-4 px-10 text-white">
+      <nav className="flex justify-between bg-black py-4 px-10 text-white  ">
         <div>
           <img src={tw1} alt="" className="h-16" />
           
@@ -20,13 +20,13 @@ export default function NavBar() {
         <div className="hidden  md:flex justify-between lg:flex-justify-between gap-5 pt-2">
           <ul className="hidden md:flex lg:flex xl:flex gap-5 font-bold pt-4 ">
             <li className="list-none hover:text-red-600 hover:text-2xl">
+              <Link to="/">Acceuil</Link>
+            </li>
+            <li className="list-none hover:text-red-600 hover:text-2xl">
               <Link to="/Apropos">A propos</Link>
             </li>
             <li className="list-none hover:text-red-600 hover:text-2xl">
               <Link to="/">Service</Link>
-            </li>
-            <li className="list-none hover:text-red-600 hover:text-2xl">
-              <Link to="/">Nous choisir</Link>
             </li>
             <li className="list-none hover:text-red-600 hover:text-2xl">
               <Link to="/">Paiement</Link>
