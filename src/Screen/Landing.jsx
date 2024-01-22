@@ -59,23 +59,22 @@ export default function Landing() {
       <div className="flex flex-col gap-5 sm:flex-col md:flex-col lg:flex-row xl:flex-row py-10 px-10">
         <div className="w-full sm:w-full lg:w-1/2 xl:w-1/2 pt-10 ">
           <h1 className="text-5xl font-bold  pb-5">Qui sommes nous ?</h1>
-          <div className="">
+          <div className="text-xl">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ultrices ullamcorper imperdiet. Sed vehicula vestibulum sapien, in
-              commodo eros mattis ut. Ut maximus mollis tortor sed laoreet.
-              Mauris ac convallis nunc, sit amet interdum turpis. Sed iaculis
-              erat vel sem lobortis mollis. Suspendisse
+              <span className="font-bold">Notre Mission:</span> À Twendyane,
+              notre mission est de révolutionner la manière dont les habitants
+              de Libreville se déplacent au quotidien. Nous nous engageons à
+              offrir une solution de transport innovante, pratique et
+              accessible, transformant ainsi la mobilité urbaine.
             </p>{" "}
             <br />
             <p className="pb-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ultrices ullamcorper imperdiet. Sed vehicula vestibulum sapien, in
-              commodo eros mattis ut. Ut maximus mollis tortor sed laoreet.
-              Mauris ac convallis nunc Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Phasellus ultrices ullamcorper imperdiet. Sed
-              vehicula vestibulum sapien, in commodo eros mattis ut. Ut maximus
-              mollis tortor sed laoreet. Mauris ac convallis nunc
+              <span className="font-bold">Notre Vision:</span> Nous imaginons
+              une ville où se déplacer n'est plus une source de préoccupation,
+              mais plutôt une expérience fluide et agréable. Avec Twendyane,
+              nous aspirons à créer des liens plus forts entre les individus et
+              les opportunités en offrant un moyen de transport fiable et
+              moderne.
             </p>
           </div>
         </div>
@@ -136,42 +135,51 @@ export default function Landing() {
             <div className="bg-black w-96 p-5 rounded-xl">
               <div className="text-center py-2">
                 <h6 className="text-5xl font-bold text-white">01</h6>
-                <p className="text-red-600 font-bold"> budget transport</p>
+                <p className="text-red-600 font-bold text-xl py-2">
+                  {" "}
+                  budget transport
+                </p>
               </div>
               <div>
-                <p className="text-white">
-                  vestibulum sapien, in commodo eros mattis ut. Ut maximus
-                  mollis tortor sed laoreet. Mauris ac convallis nunc, sit amet
-                  interdum turpis. Sed iaculis erat vel sem lobortis mollis.
-                  Suspendisse
+                <p className="text-white text-xl">
+                  Avec Twendyane, votre budget transport est entre de bonnes
+                  mains. Nos tarifs abordables vous permettent de faire des
+                  économies tout en bénéficiant d'un service de qualité.
+                  Profitez de trajets accessibles sans compromettre votre
+                  portefeuille.
                 </p>
               </div>
             </div>
             <div className="bg-black w-96 p-5 rounded-xl">
               <div className="text-center py-2">
                 <h6 className="text-5xl font-bold text-white">02</h6>
-                <p className="text-red-600 font-bold"> Pas de stress</p>
+                <p className="text-red-600 font-bold text-xl py-2">
+                  {" "}
+                  Pas de stress
+                </p>
               </div>
               <div>
-                <p className="text-white">
-                  vestibulum sapien, in commodo eros mattis ut. Ut maximus
-                  mollis tortor sed laoreet. Mauris ac convallis nunc, sit amet
-                  interdum turpis. Sed iaculis erat vel sem lobortis mollis.
-                  Suspendisse
+                <p className="text-white text-xl">
+                  Dites adieu au stress des déplacements urbains avec Twendyane.
+                  Notre solution simplifie votre vie en éliminant les tracas
+                  liés à la recherche de transport. Une réservation facile, des
+                  trajets prévisibles et l'assurance de toujours arriver à
+                  destination en toute tranquillité.
                 </p>
               </div>
             </div>
             <div className="bg-black w-96 p-5 rounded-xl">
               <div className="text-center py-2">
                 <h6 className="text-5xl font-bold text-white">03</h6>
-                <p className="text-red-600 font-bold"> Fiabilité</p>
+                <p className="text-red-600 font-bold text-xl py-2"> Fiabilité</p>
               </div>
               <div>
-                <p className="text-white">
-                  vestibulum sapien, in commodo eros mattis ut. Ut maximus
-                  mollis tortor sed laoreet. Mauris ac convallis nunc, sit amet
-                  interdum turpis. Sed iaculis erat vel sem lobortis mollis.
-                  Suspendisse
+                <p className="text-white text-xl">
+                  La fiabilité est notre engagement chez Twendyane. Comptez sur
+                  nous pour des trajets réguliers et ponctuels. Nos chauffeurs
+                  professionnels, associés à une technologie avancée,
+                  garantissent une expérience de transport fiable à chaque
+                  voyage. La confiance est notre priorité.
                 </p>
               </div>
             </div>
