@@ -3,7 +3,7 @@ import NavBar from "../Components/NavBar";
 import Hirosection from "../Components/Hirosection";
 import Footer from "../Components/Footer";
 import chefesse from "../assets/images/chefesse.jpg";
-import team2 from "../assets/images/team2.jpg"
+import team2 from "../assets/images/team2.jpg";
 import ecoleB2 from "../assets/images/ecoleB2.png";
 import ecole241 from "../assets/images/ecole241.png";
 
@@ -17,18 +17,18 @@ export default function Apropos() {
 
       {/* =================== section qui sommes nous =============== */}
       <div className="flex flex-col gap-5 sm:flex-col md:flex-col lg:flex-row xl:flex-row py-10 px-10">
-        <div className="w-full sm:w-full lg:w-1/2 xl:w-1/2 pt-10 ">
+        <div className="w-full sm:w-full lg:w-1/2 xl:w-1/2">
           <h1 className="text-5xl font-bold  pb-5">Qui sommes nous ?</h1>
-          <div className="">
+          <div className="text-black text-xl">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ultrices ullamcorper imperdiet. Sed vehicula vestibulum sapien, in
-              commodo eros mattis ut. Ut maximus mollis tortor sed laoreet.
-              Mauris ac convallis nunc, sit amet interdum turpis. Sed iaculis
-              erat vel sem lobortis mollis. Suspendisse
-            </p>{" "}
+              Dites adieu au stress des déplacements urbains avec Twendyane.
+              Notre solution simplifie votre vie en éliminant les tracas liés à
+              la recherche de transport. Une réservation facile, des trajets
+              prévisibles et l'assurance de toujours arriver à destination en
+              toute tranquillité.
+            </p>
             <br />
-            <p className="pb-3">
+            <p className="">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ultrices ullamcorper imperdiet. Sed vehicula vestibulum sapien, in
               commodo eros mattis ut. Ut maximus mollis tortor sed laoreet.

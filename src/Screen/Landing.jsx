@@ -154,7 +154,6 @@ export default function Landing() {
               <div className="text-center py-2">
                 <h6 className="text-5xl font-bold text-white">02</h6>
                 <p className="text-red-600 font-bold text-xl py-2">
-                  {" "}
                   Pas de stress
                 </p>
               </div>
