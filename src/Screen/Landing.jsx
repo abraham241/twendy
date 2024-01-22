@@ -176,36 +176,9 @@ export default function Landing() {
               </div>
             </div>
           </div>
-          <div className="flex-col py-10 flex justify-center md:flex-row lg:flex-row xl:flex-row gap-5">
-            <div className="bg-black w-96 p-5 rounded-xl">
-              <div className="text-center py-2">
-                <h6 className="text-5xl font-bold text-white">04</h6>
-                <p className="text-red-600 font-bold"> budget transport</p>
-              </div>
-              <div>
-                <p className="text-white">
-                  vestibulum sapien, in commodo eros mattis ut. Ut maximus
-                  mollis tortor sed laoreet. Mauris ac convallis nunc, sit amet
-                  interdum turpis. Sed iaculis erat vel sem lobortis mollis.
-                  Suspendisse
-                </p>
-              </div>
-            </div>
-            <div className="bg-black w-96 p-5 rounded-xl">
-              <div className="text-center py-2">
-                <h6 className="text-5xl font-bold text-white">05</h6>
-                <p className="text-red-600 font-bold"> budget transport</p>
-              </div>
-              <div>
-                <p className="text-white">
-                  vestibulum sapien, in commodo eros mattis ut. Ut maximus
-                  mollis tortor sed laoreet. Mauris ac convallis nunc, sit amet
-                  interdum turpis. Sed iaculis erat vel sem lobortis mollis.
-                  Suspendisse
-                </p>
-              </div>
-            </div>
-          </div>
+          {/* <div className="flex-col py-10 flex justify-center md:flex-row lg:flex-row xl:flex-row gap-5">
+            
+          </div> */}
         </div>
       </section>
       {/* ==================== section nous choisir =========================== */}
