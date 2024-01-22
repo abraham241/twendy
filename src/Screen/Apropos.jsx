@@ -21,21 +21,20 @@ export default function Apropos() {
           <h1 className="text-5xl font-bold  pb-5">Qui sommes nous ?</h1>
           <div className="text-black text-xl">
             <p>
-              Dites adieu au stress des déplacements urbains avec Twendyane.
-              Notre solution simplifie votre vie en éliminant les tracas liés à
-              la recherche de transport. Une réservation facile, des trajets
-              prévisibles et l'assurance de toujours arriver à destination en
-              toute tranquillité.
+              <span className="font-bold">Notre Mission:</span> À Twendyane,
+              notre mission est de révolutionner la manière dont les habitants
+              de Libreville se déplacent au quotidien. Nous nous engageons à
+              offrir une solution de transport innovante, pratique et
+              accessible, transformant ainsi la mobilité urbaine.
             </p>
             <br />
             <p className="">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ultrices ullamcorper imperdiet. Sed vehicula vestibulum sapien, in
-              commodo eros mattis ut. Ut maximus mollis tortor sed laoreet.
-              Mauris ac convallis nunc Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Phasellus ultrices ullamcorper imperdiet. Sed
-              vehicula vestibulum sapien, in commodo eros mattis ut. Ut maximus
-              mollis tortor sed laoreet. Mauris ac convallis nunc
+              <span className="font-bold">Notre Vision:</span> Nous imaginons
+              une ville où se déplacer n'est plus une source de préoccupation,
+              mais plutôt une expérience fluide et agréable. Avec Twendyane,
+              nous aspirons à créer des liens plus forts entre les individus et
+              les opportunités en offrant un moyen de transport fiable et
+              moderne.
             </p>
           </div>
         </div>
