@@ -13,6 +13,7 @@ import master from "../assets/images/master.png";
 import visa from "../assets/images/visa.png";
 import paiement from "../assets/images/paiement.png";
 import Footer from "../Components/Footer";
+import { Link } from "react-router-dom";
 
 export default function Landing() {
   return (
@@ -29,7 +30,7 @@ export default function Landing() {
           </h1>
           <div className="pt-16">
             <h6 className="font-bold text-white py-2">
-              Télécharger notre application
+              <Link to="/Apropos">Télécharger notre application</Link>
             </h6>
             <div className="flex gap-3">
               <button className="h-12 w-36 bg-black text-white rounded flex  justify-center items-center p-2 hover:bg-red-600 hover:text-white">
@@ -66,7 +67,8 @@ export default function Landing() {
               de Libreville se déplacent au quotidien. Nous nous engageons à
               offrir une solution de transport innovante, pratique et
               accessible, transformant ainsi la mobilité urbaine.
-            </p>{" "}
+              <Link to="/Prices">Tikets & prix</Link>
+            </p>
             <br />
             <p className="pb-3">
               <span className="font-bold">Notre Vision:</span> Nous imaginons

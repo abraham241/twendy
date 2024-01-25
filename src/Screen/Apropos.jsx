@@ -2,7 +2,9 @@ import React from "react";
 import NavBar from "../Components/NavBar";
 import Hirosection from "../Components/Hirosection";
 import Footer from "../Components/Footer";
-import chefesse from "../assets/images/chefesse.jpg";
+import Temoin from "../assets/images/Temoin.jpg";
+import Temoin2 from "../assets/images/Temoin2.jpg";
+import Temoin3 from "../assets/images/Temoin3.jpg";
 import team2 from "../assets/images/team2.jpg";
 import ecoleB2 from "../assets/images/ecoleB2.png";
 import ecole241 from "../assets/images/ecole241.png";
@@ -52,21 +54,21 @@ export default function Apropos() {
           </h1>
         </div>
         <div className="px-10">
-          <div className="py-5 flex-col flex justify-between md:flex-row lg:flex-row xl:flex-row">
-            <div className="flex flex-col justify-center items-center bg-neutral-200 p-3  w-96">
-              <img src={chefesse} alt="" className="h-20 w-20 rounded-full" />
+          <div className="py-5 flex-col flex justify-between  md:flex-row lg:flex-row xl:flex-row">
+            <div className="flex flex-col justify-center items-center bg-neutral-200 p-5  w-80">
+              <img src={Temoin} alt="" className="h-20 w-20 rounded-full" />
               <p className="font-bold ">MANFOUBI YANN</p>
               <span>Chauffeur de Bus</span>
             </div>
-            <div className="flex flex-col justify-center items-center bg-neutral-200 p-3  w-96">
-              <img src={chefesse} alt="" className="h-20 w-20 rounded-full" />
-              <p className="font-bold ">MANFOUBI YANN</p>
+            <div className="flex flex-col justify-center items-center bg-neutral-200 p-5  w-80">
+              <img src={Temoin2} alt="" className="h-20 w-20 rounded-full" />
+              <p className="font-bold ">MOUSSA DYABI</p>
               <span>Chauffeur de Bus</span>
             </div>
-            <div className="flex flex-col justify-center items-center bg-neutral-200 p-3  w-96">
-              <img src={chefesse} alt="" className="h-20 w-20 rounded-full" />
-              <p className="font-bold ">MANFOUBI YANN</p>
-              <span>Particulier</span>
+            <div className="flex flex-col justify-center items-center bg-neutral-200 p-5  w-80">
+              <img src={Temoin3} alt="" className="h-20 w-20 rounded-full" />
+              <p className="font-bold ">NDONG YOLANDE</p>
+              <span>Particulière</span>
             </div>
           </div>
           <div className="flex justify-center items-center py-3">
@@ -83,11 +85,11 @@ export default function Apropos() {
         <h1 className="font-bold text-5xl text-center py-5">
           Ils nous soutienne
         </h1>
-        <div className="flex-col flex justify-between md:flex-row lg:flex-row xl:flex-row">
-          <img src={ecole241} alt="" className="" />
-          <img src={ecoleB2} alt="" className="" />
-          <img src={ecole241} alt="" className="" />
-          <img src={ecoleB2} alt="" className="" />
+        <div className="flex-col flex justify-between sm:flex-col md:flex-row lg:flex-row xl:flex-row">
+          <img src={ecole241} alt="" className="md:h-36"/>
+          <img src={ecoleB2} alt="" className="md:h-36"/>
+          <img src={ecole241} alt="" className="md:h-36"/>
+          <img src={ecoleB2} alt="" className="md:h-36"/>
         </div>
       </div>
       {/* =================== Fin de la section ils nous soutiennent =============== */}

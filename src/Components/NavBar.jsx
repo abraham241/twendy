@@ -29,7 +29,7 @@ export default function NavBar() {
               <Link to="">Service</Link>
             </li>
             <li className="list-none hover:text-red-600 hover:text-2xl">
-              <Link to="">Paiement</Link>
+              <Link to="/Prices">Tikets & prix</Link>
             </li>
             <li className="list-none hover:text-red-600 hover:text-2xl">
               <Link to="">Partenaire</Link>
