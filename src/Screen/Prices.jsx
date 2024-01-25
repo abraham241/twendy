@@ -43,7 +43,7 @@ export default function Prices() {
                 </div>
                 <div className="text-red-600 font-semibold leading-7 ">
                   <p>Aller - Retour</p>
-                  <p>35 jours</p>
+                  <p>7 jours</p>
                   <p className="text-center bg-red-600 text-white font-bold">13.500 XAf</p>
                   <p>Carrefours</p>
                 </div>
@@ -59,7 +59,7 @@ export default function Prices() {
         </div>
         <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row gap-10">
           <div className="border border-red-600 w-full sm:w-full md:w-2/6 lg:w-2/6 xl:w-2/6 flex justify-center items-center bg-no-repeat bg-center bg-cover h-[180px]  bg-[url('./assets/images/team1.jpg')] ;">
-            <h3 className="text-xl font-bold">
+            <h3 className="text-2xl font-bold text-white">
               Abonnement <br /> Scolaire
             </h3>
           </div>
@@ -91,13 +91,13 @@ export default function Prices() {
         </div>
         <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row gap-10">
           <div className="border border-red-600 w-full sm:w-full md:w-2/6 lg:w-2/6 xl:w-2/6 flex justify-center items-center bg-no-repeat bg-center bg-cover h-[150px]  bg-[url('./assets/images/team1.jpg')] ;">
-            <h3 className="text-xl font-bold">
+            <h3 className="text-2xl font-bold text-white">
               Abonnement <br /> Mensuel
             </h3>
           </div>
           <div className="border border-black w-full sm:w-full md:w-4/6 lg:w-4/6 xl:w-4/6">
-            <h2 className="font-extrabold text-xl text-center">Pour les élèves & les étudiants</h2>
-            <div className="w-full sm:w-full md:w-4/6 lg:w-4/6 xl:w-4/6   flex justify-around items-center gap-10 px-2">
+            <h2 className="font-extrabold text-xl text-center">Tikets familiale</h2>
+            <div className="w-full sm:w-full md:w-full lg:w-full xl:w-4/6   flex justify-around items-center gap-10 pr-36 px-2">
               <div className="flex flex-col  md:flex-row gap-5">
                 <div className="text-xl font-bold">
                   <h6>Modalités:</h6>
@@ -106,10 +106,10 @@ export default function Prices() {
                   <h6>Lieux:</h6>
                 </div>
                 <div className="text-red-600 font-semibold leading-7 ">
-                  <p>Aller - Retour</p>
+                  <p>A partir de trois (3) personnes</p>
                   <p>35 jours</p>
-                  <p className="text-center bg-red-600 text-white font-bold">37500f</p>
-                  <p>Carrefours</p>
+                  <p className="text-center bg-red-600 text-white font-bold">Flexible</p>
+                  <p>Carrefours ou domiciles</p>
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center">
@@ -123,13 +123,13 @@ export default function Prices() {
         </div>
         <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row gap-10">
           <div className="border border-red-600 w-full sm:w-full md:w-2/6 lg:w-2/6 xl:w-2/6 flex justify-center items-center bg-no-repeat bg-center bg-cover h-[150px]  bg-[url('./assets/images/team1.jpg')] ;">
-            <h3 className="text-xl font-bold">
+            <h3 className="text-2xl font-bold text-white">
               Abonnement <br /> Mensuel
             </h3>
           </div>
           <div className="border border-black w-full sm:w-full md:w-4/6 lg:w-4/6 xl:w-4/6">
-            <h2 className="font-extrabold text-xl text-center">Pour les élèves & les étudiants</h2>
-            <div className="   flex justify-around items-center gap-10 ">
+            <h2 className="font-extrabold text-xl text-center">Pour les riverains </h2>
+            <div className="w-full sm:w-full md:w-4/6 lg:w-4/6 xl:w-4/6   flex justify-around items-center gap-10 px-2">
               <div className=" flex flex-col  md:flex-row gap-5">
                 <div className="text-xl font-bold">
                   <h6>Modalités:</h6>
@@ -141,7 +141,7 @@ export default function Prices() {
                   <p>Aller - Retour</p>
                   <p>35 jours</p>
                   <p className="text-center bg-red-600 text-white font-bold">37500f</p>
-                  <p>Carrefours</p>
+                  <p>Carrefours ou domiciles</p>
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center">
