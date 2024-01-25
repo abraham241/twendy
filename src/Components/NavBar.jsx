@@ -18,7 +18,7 @@ export default function NavBar() {
         </div>
 
         <div className="hidden  md:flex justify-between lg:flex-justify-between gap-5 pt-2">
-          <ul className="hidden md:flex lg:flex xl:flex gap-5 font-bold pt-4 ">
+          <ul className="hidden md:hidden lg:flex xl:flex gap-5 font-bold pt-4 ">
             <li className="list-none hover:text-red-600 hover:text-2xl">
               <Link to="/">Acceuil</Link>
             </li>
