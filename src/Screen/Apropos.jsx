@@ -3,8 +3,8 @@ import NavBar from "../Components/NavBar";
 import Hirosection from "../Components/Hirosection";
 import Footer from "../Components/Footer";
 import Temoin from "../assets/images/Temoin.jpg";
-import Temoin2 from "../assets/images/Temoin2.jpg";
-import Temoin3 from "../assets/images/Temoin3.jpg";
+import temoin2 from "../assets/images/temoin2.jpg";
+import temoin3 from "../assets/images/temoin3.jpg";
 import team2 from "../assets/images/team2.jpg";
 import ecoleB2 from "../assets/images/ecoleB2.png";
 import ecole241 from "../assets/images/ecole241.png";
@@ -61,12 +61,12 @@ export default function Apropos() {
               <span>Chauffeur de Bus</span>
             </div>
             <div className="flex flex-col justify-center items-center bg-neutral-200 p-5  w-80">
-              <img src={Temoin2} alt="" className="h-20 w-20 rounded-full" />
+              <img src={temoin2} alt="" className="h-20 w-20 rounded-full" />
               <p className="font-bold ">MOUSSA DYABI</p>
               <span>Chauffeur de Bus</span>
             </div>
             <div className="flex flex-col justify-center items-center bg-neutral-200 p-5  w-80">
-              <img src={Temoin3} alt="" className="h-20 w-20 rounded-full" />
+              <img src={temoin3} alt="" className="h-20 w-20 rounded-full" />
               <p className="font-bold ">NDONG YOLANDE</p>
               <span>Particulière</span>
             </div>
