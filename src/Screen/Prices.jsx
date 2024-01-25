@@ -97,7 +97,7 @@ export default function Prices() {
           </div>
           <div className="border border-black w-full sm:w-full md:w-4/6 lg:w-4/6 xl:w-4/6">
             <h2 className="font-extrabold text-xl text-center">Tikets familiale</h2>
-            <div className="w-full sm:w-full md:w-full lg:w-full xl:w-4/6   flex justify-around items-center gap-10 pr-36 px-2">
+            <div className="w-full sm:w-full md:w-full lg:w-full xl:w-full  flex justify-around items-center gap-10 pr-36 px-2">
               <div className="flex flex-col  md:flex-row gap-5">
                 <div className="text-xl font-bold">
                   <h6>Modalités:</h6>
