@@ -134,7 +134,7 @@ export default function Landing() {
         </h1>
         <div className="py-10 px-10">
           <div className="flex-col flex justify-between gap-5 md:flex-row lg:flex-row xl:flex-row">
-            <div className="bg-black w-96 p-5 rounded-xl">
+            <div className="bg-black  p-5 rounded-xl">
               <div className="text-center py-2">
                 <h6 className="text-5xl font-bold text-white">01</h6>
                 <p className="text-red-600 font-bold text-xl py-2">
@@ -152,7 +152,7 @@ export default function Landing() {
                 </p>
               </div>
             </div>
-            <div className="bg-black w-96 p-5 rounded-xl">
+            <div className="bg-black  p-5 rounded-xl">
               <div className="text-center py-2">
                 <h6 className="text-5xl font-bold text-white">02</h6>
                 <p className="text-red-600 font-bold text-xl py-2">
@@ -169,7 +169,7 @@ export default function Landing() {
                 </p>
               </div>
             </div>
-            <div className="bg-black w-96 p-5 rounded-xl">
+            <div className="bg-black p-5 rounded-xl">
               <div className="text-center py-2">
                 <h6 className="text-5xl font-bold text-white">03</h6>
                 <p className="text-red-600 font-bold text-xl py-2"> Fiabilité</p>
