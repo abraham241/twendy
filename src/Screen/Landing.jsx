@@ -76,7 +76,7 @@ export default function Landing() {
               mais plutôt une expérience fluide et agréable. Avec Twendyane,
               nous aspirons à créer des liens plus forts entre les individus et
               les opportunités en offrant un moyen de transport fiable et
-              moderne.
+              moderne.<Link to="/Service">service</Link>
             </p>
           </div>
         </div>
