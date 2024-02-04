@@ -12,9 +12,7 @@ export default function NavBar() {
     <>
       <nav className="flex justify-between bg-black py-4 px-10 text-white  ">
         <div>
-          <img src={tw1} alt="" className="h-16" />
-          
-          {/* <Icon path={mdiCar3Plus} size={3} className="" /> */}
+          <Link to="/"><img src={tw1} alt="" className="h-16" /></Link>
         </div>
 
         <div className="hidden  md:flex justify-between lg:flex-justify-between gap-5 pt-2">
@@ -23,13 +21,13 @@ export default function NavBar() {
               <Link to="/">Acceuil</Link>
             </li>
             <li className="list-none hover:text-red-600 hover:text-2xl">
-              <Link to="/Apropos">A propos</Link>
-            </li>
-            <li className="list-none hover:text-red-600 hover:text-2xl">
-              <Link to="">Service</Link>
+              <Link to="/Service">Service</Link>
             </li>
             <li className="list-none hover:text-red-600 hover:text-2xl">
               <Link to="/Prices">Tikets & prix</Link>
+            </li>
+            <li className="list-none hover:text-red-600 hover:text-2xl">
+              <Link to="/Apropos">A propos</Link>
             </li>
             <li className="list-none hover:text-red-600 hover:text-2xl">
               <Link to="">Partenaire</Link>

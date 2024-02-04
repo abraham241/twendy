@@ -15,7 +15,7 @@ export default function Apropos() {
       {/* navBar */}
       <NavBar />
       {/* hiro section */}
-      <Hirosection />
+      {/* <Hirosection /> */}
 
       {/* =================== section qui sommes nous =============== */}
       <div className="flex flex-col gap-5 sm:flex-col md:flex-col lg:flex-row xl:flex-row py-10 px-10">
@@ -54,25 +54,25 @@ export default function Apropos() {
           </h1>
         </div>
         <div className="px-10">
-          <div className="py-5 flex-col flex justify-between  md:flex-row lg:flex-row xl:flex-row">
-            <div className="flex flex-col justify-center items-center rounded-lg bg-neutral-200 p-5  w-80">
+          <div className="py-5 flex-col flex justify-between gap-5  md:flex-row lg:flex-row xl:flex-row">
+            <div className="flex flex-col justify-center items-center rounded-lg hover:shadow-xl bg-neutral-200 p-5  w-80">
               <img src={Temoin} alt="" className="h-20 w-20 rounded-full" />
               <p className="font-bold ">MANFOUBI YANN</p>
               <span>Chauffeur de Bus</span>
             </div>
-            <div className="flex flex-col justify-center items-center rounded-lg bg-neutral-200 p-5  w-80">
+            <div className="flex flex-col justify-center items-center rounded-lg hover:shadow-xl bg-neutral-200 p-5  w-80">
               <img src={temoin2} alt="" className="h-20 w-20 rounded-full" />
               <p className="font-bold ">MOUSSA DYABI</p>
               <span>Chauffeur de Bus</span>
             </div>
-            <div className="flex flex-col justify-center items-center rounded-lg bg-neutral-200 p-5  w-80">
+            <div className="flex flex-col justify-center items-center rounded-lg hover:shadow-xl bg-neutral-200 p-5  w-80">
               <img src={temoin3} alt="" className="h-20 w-20 rounded-full" />
               <p className="font-bold ">NDONG YOLANDE</p>
               <span>Particulière</span>
             </div>
           </div>
           <div className="flex justify-center items-center py-3">
-            <button className="h-16 bg-red-600 rounded-xl text-white font-bold p-3">
+            <button className="h-16 hover:bg-red-500 bg-red-600 rounded-xl text-white font-bold p-3">
               Devenez partenaire
             </button>
           </div>

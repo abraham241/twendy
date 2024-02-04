@@ -33,14 +33,14 @@ export default function Landing() {
               <Link to="/Apropos">Télécharger notre application</Link>
             </h6>
             <div className="flex gap-3">
-              <button className="h-12 w-36 bg-black text-white rounded flex  justify-center items-center p-2 hover:bg-red-600 hover:text-white">
+              <button className="h-12 w-36 bg-black text-white rounded flex  justify-center items-center p-2 hover:bg-red-500 hover:text-white">
                 <Icon path={mdiApple} size={2} />
                 <div className="text-sm">
                   <span>Télécharger sur </span>
                   l'applestore
                 </div>
               </button>
-              <button className="h-12 w-36 bg-black text-white rounded flex  justify-center items-center p-2 hover:bg-red-600 hover:text-white">
+              <button className="h-12 w-36 bg-black text-white rounded flex  justify-center items-center p-2 hover:bg-red-500 hover:text-white">
                 <Icon path={mdiGooglePlay} size={2} />
                 <div className="text-sm">
                   <span>Télécharger sur </span>
@@ -138,8 +138,7 @@ export default function Landing() {
               <div className="text-center py-2">
                 <h6 className="text-5xl font-bold text-white">01</h6>
                 <p className="text-red-600 font-bold text-xl py-2">
-                  {" "}
-                  budget transport
+                  Gestion du budget transport
                 </p>
               </div>
               <div>
@@ -156,7 +155,7 @@ export default function Landing() {
               <div className="text-center py-2">
                 <h6 className="text-5xl font-bold text-white">02</h6>
                 <p className="text-red-600 font-bold text-xl py-2">
-                  Pas de stress
+                  Pas de stress ni tracas 
                 </p>
               </div>
               <div>
@@ -172,7 +171,7 @@ export default function Landing() {
             <div className="bg-black p-5 rounded-xl">
               <div className="text-center py-2">
                 <h6 className="text-5xl font-bold text-white">03</h6>
-                <p className="text-red-600 font-bold text-xl py-2"> Fiabilité</p>
+                <p className="text-red-600 font-bold text-xl py-2"> Fiabilité & ponctualité</p>
               </div>
               <div>
                 <p className="text-white text-xl">
@@ -221,7 +220,7 @@ export default function Landing() {
       <section className="flex-col flex justify-between gap-5 md:flex-row  px-10 py-10 ">
         <div className=" flex  flex-col md:w-1/2">
           <h1 className="font-bold text-5xl md:text-5xl lg:text-8xl xl:text-8xl">
-            Devenez notre <br /> partenaire
+            Travaillons <br /> ensemble
           </h1>
           <p className="py-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere hic
@@ -229,8 +228,8 @@ export default function Landing() {
             perspiciatis nemo. Architecto fugiat quas fuga voluptates doloribus
             consequatur quasi ratione vero excepturi.
           </p>
-          <button className="bg-red-600 rounded-md text-white font-bold mt-10 h-16 w-36 ">
-            Postulez Ici
+          <button className="hover:bg-red-500 bg-red-600 rounded-md text-white font-bold mt-10 h-16 w-44 ">
+            Devenez partenaire
           </button>
         </div>
         <div className=" md:w-1/2 pt-3">
